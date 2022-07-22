@@ -72,6 +72,7 @@ min-height:25rem;
 border-radius:2rem;
 overflow:hidden;
 position: relative;
+width:300px;
 img {
   border-radius:2rem;
   position: absolute;
