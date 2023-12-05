@@ -1,12 +1,5 @@
 
 
-
-
-
-
-
-
-
 import {useEffect, useState} from 'react'
 import {useParams} from 'react-router-dom'
 import styled from 'styled-components'
@@ -56,6 +49,7 @@ function Recipe() {
 const DetailWrapper = styled.div`
 margin:10rem 0 5rem 0;
 display:flex;
+gap:2rem;
 .active {
   background: linear-gradient(35deg, #494949, #313131);
   color:white;
@@ -113,8 +107,8 @@ margin-right:2rem;
 font-weight:600;
 `
 const Info = styled.div`
-max-width:100%;
-margin-left:10rem;
+width:100%;
+
 
 @media screen and (max-width: 1140px) {
 .navigation {
@@ -137,4 +131,4 @@ margin-left:10rem;
 }
 
 `
-export default Recipe;
+export default Recipe
